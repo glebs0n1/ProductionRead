@@ -9,13 +9,4 @@ public class Demo1Application {
     public static void main(String[] args) {
         SpringApplication.run(Demo1Application.class, args);
     }
-
-    public boolean check(String palindrome) {
-        return (palindrome.equals(new StringBuilder(palindrome).reverse().toString()));
-    }
 }
-
-
-
-
-
